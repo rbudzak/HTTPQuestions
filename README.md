@@ -201,6 +201,26 @@ console.log(JSON.stringify(myObj));
 __MISC__
 
 * Describe what DNS is.
+
+```
+DNS is a service that translates human-readable domain names into the numerical IP addresses that machines can use.
+
+```
 * In the terminal, type `man curl`.  Look at the man page for curl.  What do the following flags do? `-v`, `-X`.  (Hint: to search for a string, type `/` then the text you want, then enter.  To quit the man page, type `q`).
+
+```
+-v enables verbose mode, which shows what's going on under the hood. You'll see header data that would normally be hidden by curl. -X allows you to use HTTP verbs other than GET.
+```
+
 * What is TCP/IP?  How does it interact with HTTP?
+
+```
+TCP/IP is a protocol that governs data transmission across the Internet. It is what delivers the packets that make up the data that HTTP uses.
+```
+
 * Does HTTP break the data that is being sent into small packets?  If not, what protocol is responsible for it?
+
+```
+It does not. TCP/IP handles this, as it is a lower-level protocol.
+```
+
